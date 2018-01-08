@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA6209F20039F2200F73974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6209E20039F2200F73974 /* AppDelegate.swift */; };
+		CDA620A120039F2200F73974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620A020039F2200F73974 /* ViewController.swift */; };
+		CDA620A420039F2200F73974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA620A220039F2200F73974 /* Main.storyboard */; };
+		CDA620A620039F2200F73974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA620A520039F2200F73974 /* Assets.xcassets */; };
+		CDA620A920039F2200F73974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA620A720039F2200F73974 /* LaunchScreen.storyboard */; };
+		CDA620B420039F2200F73974 /* Magical_ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620B320039F2200F73974 /* Magical_ColorsTests.swift */; };
+		CDA620BF20039F2200F73974 /* Magical_ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620BE20039F2200F73974 /* Magical_ColorsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA620B020039F2200F73974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA6209320039F2200F73974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA6209A20039F2200F73974;
+			remoteInfo = "Magical Colors";
+		};
+		CDA620BB20039F2200F73974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA6209320039F2200F73974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA6209A20039F2200F73974;
+			remoteInfo = "Magical Colors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDA6209B20039F2200F73974 /* Magical Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magical Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA6209E20039F2200F73974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDA620A020039F2200F73974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDA620A320039F2200F73974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDA620A520039F2200F73974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA620A820039F2200F73974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDA620AA20039F2200F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA620AF20039F2200F73974 /* Magical ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magical ColorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA620B320039F2200F73974 /* Magical_ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical_ColorsTests.swift; sourceTree = "<group>"; };
+		CDA620B520039F2200F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA620BA20039F2200F73974 /* Magical ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magical ColorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA620BE20039F2200F73974 /* Magical_ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical_ColorsUITests.swift; sourceTree = "<group>"; };
+		CDA620C020039F2200F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA6209820039F2200F73974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620AC20039F2200F73974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620B720039F2200F73974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA6209220039F2200F73974 = {
+			isa = PBXGroup;
+			children = (
+				CDA6209D20039F2200F73974 /* Magical Colors */,
+				CDA620B220039F2200F73974 /* Magical ColorsTests */,
+				CDA620BD20039F2200F73974 /* Magical ColorsUITests */,
+				CDA6209C20039F2200F73974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA6209C20039F2200F73974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA6209B20039F2200F73974 /* Magical Colors.app */,
+				CDA620AF20039F2200F73974 /* Magical ColorsTests.xctest */,
+				CDA620BA20039F2200F73974 /* Magical ColorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA6209D20039F2200F73974 /* Magical Colors */ = {
+			isa = PBXGroup;
+			children = (
+				CDA6209E20039F2200F73974 /* AppDelegate.swift */,
+				CDA620A020039F2200F73974 /* ViewController.swift */,
+				CDA620A220039F2200F73974 /* Main.storyboard */,
+				CDA620A520039F2200F73974 /* Assets.xcassets */,
+				CDA620A720039F2200F73974 /* LaunchScreen.storyboard */,
+				CDA620AA20039F2200F73974 /* Info.plist */,
+			);
+			path = "Magical Colors";
+			sourceTree = "<group>";
+		};
+		CDA620B220039F2200F73974 /* Magical ColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA620B320039F2200F73974 /* Magical_ColorsTests.swift */,
+				CDA620B520039F2200F73974 /* Info.plist */,
+			);
+			path = "Magical ColorsTests";
+			sourceTree = "<group>";
+		};
+		CDA620BD20039F2200F73974 /* Magical ColorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA620BE20039F2200F73974 /* Magical_ColorsUITests.swift */,
+				CDA620C020039F2200F73974 /* Info.plist */,
+			);
+			path = "Magical ColorsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA6209A20039F2200F73974 /* Magical Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA620C320039F2200F73974 /* Build configuration list for PBXNativeTarget "Magical Colors" */;
+			buildPhases = (
+				CDA6209720039F2200F73974 /* Sources */,
+				CDA6209820039F2200F73974 /* Frameworks */,
+				CDA6209920039F2200F73974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magical Colors";
+			productName = "Magical Colors";
+			productReference = CDA6209B20039F2200F73974 /* Magical Colors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA620AE20039F2200F73974 /* Magical ColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA620C620039F2200F73974 /* Build configuration list for PBXNativeTarget "Magical ColorsTests" */;
+			buildPhases = (
+				CDA620AB20039F2200F73974 /* Sources */,
+				CDA620AC20039F2200F73974 /* Frameworks */,
+				CDA620AD20039F2200F73974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA620B120039F2200F73974 /* PBXTargetDependency */,
+			);
+			name = "Magical ColorsTests";
+			productName = "Magical ColorsTests";
+			productReference = CDA620AF20039F2200F73974 /* Magical ColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDA620B920039F2200F73974 /* Magical ColorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA620C920039F2200F73974 /* Build configuration list for PBXNativeTarget "Magical ColorsUITests" */;
+			buildPhases = (
+				CDA620B620039F2200F73974 /* Sources */,
+				CDA620B720039F2200F73974 /* Frameworks */,
+				CDA620B820039F2200F73974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA620BC20039F2200F73974 /* PBXTargetDependency */,
+			);
+			name = "Magical ColorsUITests";
+			productName = "Magical ColorsUITests";
+			productReference = CDA620BA20039F2200F73974 /* Magical ColorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA6209320039F2200F73974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ibrahim Mbaziira";
+				TargetAttributes = {
+					CDA6209A20039F2200F73974 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CDA620AE20039F2200F73974 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDA6209A20039F2200F73974;
+					};
+					CDA620B920039F2200F73974 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDA6209A20039F2200F73974;
+					};
+				};
+			};
+			buildConfigurationList = CDA6209620039F2200F73974 /* Build configuration list for PBXProject "Magical Colors" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA6209220039F2200F73974;
+			productRefGroup = CDA6209C20039F2200F73974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA6209A20039F2200F73974 /* Magical Colors */,
+				CDA620AE20039F2200F73974 /* Magical ColorsTests */,
+				CDA620B920039F2200F73974 /* Magical ColorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA6209920039F2200F73974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620A920039F2200F73974 /* LaunchScreen.storyboard in Resources */,
+				CDA620A620039F2200F73974 /* Assets.xcassets in Resources */,
+				CDA620A420039F2200F73974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620AD20039F2200F73974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620B820039F2200F73974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA6209720039F2200F73974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620A120039F2200F73974 /* ViewController.swift in Sources */,
+				CDA6209F20039F2200F73974 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620AB20039F2200F73974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620B420039F2200F73974 /* Magical_ColorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA620B620039F2200F73974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA620BF20039F2200F73974 /* Magical_ColorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA620B120039F2200F73974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA6209A20039F2200F73974 /* Magical Colors */;
+			targetProxy = CDA620B020039F2200F73974 /* PBXContainerItemProxy */;
+		};
+		CDA620BC20039F2200F73974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA6209A20039F2200F73974 /* Magical Colors */;
+			targetProxy = CDA620BB20039F2200F73974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDA620A220039F2200F73974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA620A320039F2200F73974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDA620A720039F2200F73974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDA620A820039F2200F73974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA620C120039F2200F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDA620C220039F2200F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA620C420039F2200F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "Magical Colors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.Magical-Colors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA620C520039F2200F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "Magical Colors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.Magical-Colors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDA620C720039F2200F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "Magical ColorsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.Magical-ColorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magical Colors.app/Magical Colors";
+			};
+			name = Debug;
+		};
+		CDA620C820039F2200F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "Magical ColorsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.Magical-ColorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magical Colors.app/Magical Colors";
+			};
+			name = Release;
+		};
+		CDA620CA20039F2200F73974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "Magical ColorsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.Magical-ColorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magical Colors";
+			};
+			name = Debug;
+		};
+		CDA620CB20039F2200F73974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "Magical ColorsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.Magical-ColorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magical Colors";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA6209620039F2200F73974 /* Build configuration list for PBXProject "Magical Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA620C120039F2200F73974 /* Debug */,
+				CDA620C220039F2200F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA620C320039F2200F73974 /* Build configuration list for PBXNativeTarget "Magical Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA620C420039F2200F73974 /* Debug */,
+				CDA620C520039F2200F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA620C620039F2200F73974 /* Build configuration list for PBXNativeTarget "Magical ColorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA620C720039F2200F73974 /* Debug */,
+				CDA620C820039F2200F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA620C920039F2200F73974 /* Build configuration list for PBXNativeTarget "Magical ColorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA620CA20039F2200F73974 /* Debug */,
+				CDA620CB20039F2200F73974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA6209320039F2200F73974 /* Project object */;
+}
