@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CDA6209F20039F2200F73974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6209E20039F2200F73974 /* AppDelegate.swift */; };
-		CDA620A120039F2200F73974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620A020039F2200F73974 /* ViewController.swift */; };
+		CDA620A120039F2200F73974 /* ColorPresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620A020039F2200F73974 /* ColorPresenterVC.swift */; };
 		CDA620A420039F2200F73974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA620A220039F2200F73974 /* Main.storyboard */; };
 		CDA620A620039F2200F73974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA620A520039F2200F73974 /* Assets.xcassets */; };
 		CDA620A920039F2200F73974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA620A720039F2200F73974 /* LaunchScreen.storyboard */; };
 		CDA620B420039F2200F73974 /* Magical_ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620B320039F2200F73974 /* Magical_ColorsTests.swift */; };
 		CDA620BF20039F2200F73974 /* Magical_ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620BE20039F2200F73974 /* Magical_ColorsUITests.swift */; };
+		CDA620CD2003A8F600F73974 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620CC2003A8F600F73974 /* ColorPickerVC.swift */; };
+		CDA620CF2004A1D400F73974 /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA620CE2004A1D400F73974 /* ColorTransferDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		CDA6209B20039F2200F73974 /* Magical Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magical Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA6209E20039F2200F73974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDA620A020039F2200F73974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDA620A020039F2200F73974 /* ColorPresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenterVC.swift; sourceTree = "<group>"; };
 		CDA620A320039F2200F73974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDA620A520039F2200F73974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA620A820039F2200F73974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		CDA620BA20039F2200F73974 /* Magical ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magical ColorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA620BE20039F2200F73974 /* Magical_ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical_ColorsUITests.swift; sourceTree = "<group>"; };
 		CDA620C020039F2200F73974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA620CC2003A8F600F73974 /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		CDA620CE2004A1D400F73974 /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				CDA6209E20039F2200F73974 /* AppDelegate.swift */,
-				CDA620A020039F2200F73974 /* ViewController.swift */,
+				CDA620A020039F2200F73974 /* ColorPresenterVC.swift */,
+				CDA620CC2003A8F600F73974 /* ColorPickerVC.swift */,
+				CDA620CE2004A1D400F73974 /* ColorTransferDelegate.swift */,
 				CDA620A220039F2200F73974 /* Main.storyboard */,
 				CDA620A520039F2200F73974 /* Assets.xcassets */,
 				CDA620A720039F2200F73974 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA620A120039F2200F73974 /* ViewController.swift in Sources */,
+				CDA620A120039F2200F73974 /* ColorPresenterVC.swift in Sources */,
+				CDA620CF2004A1D400F73974 /* ColorTransferDelegate.swift in Sources */,
 				CDA6209F20039F2200F73974 /* AppDelegate.swift in Sources */,
+				CDA620CD2003A8F600F73974 /* ColorPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
