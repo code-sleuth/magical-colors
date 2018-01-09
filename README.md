@@ -1,2 +1,3 @@
 
-![Screenshot1](screenshot1.png =500x600)
+![Screenshot1](screenshot1.png)
+![Screenshot2](screenshot2.png)
